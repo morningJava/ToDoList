@@ -1,7 +1,7 @@
 /**
  * Item.java describes the individual item to appear on the list.
  * 
- * @author Bryon Fields
+ * @author m0r05
  * @version 0.1
  */
 
