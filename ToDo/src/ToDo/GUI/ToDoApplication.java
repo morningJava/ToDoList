@@ -122,7 +122,6 @@ public class ToDoApplication extends JFrame implements ActionListener {
 			if (quit == JOptionPane.YES_OPTION) {
 				System.exit(0);
 			}
-
 			return;
 		}
 
@@ -134,9 +133,7 @@ public class ToDoApplication extends JFrame implements ActionListener {
 		if (component == addMenu || component == removeMenu) {
 			actionMenuEvent(component);
 			return;
-
 		}
-
 	}
 
 	/**
@@ -161,12 +158,9 @@ public class ToDoApplication extends JFrame implements ActionListener {
 
 				}
 				catch (IOException e) {
-					JOptionPane
-							.showMessageDialog(
-									null,
-									"There was a problem saving the file",
-									"Saving Error",
-									JOptionPane.ERROR_MESSAGE);
+					JOptionPane.showMessageDialog
+						                (null,"There was a problem saving the file",
+						                "Saving Error",JOptionPane.ERROR_MESSAGE);
 				}
 			}
 
