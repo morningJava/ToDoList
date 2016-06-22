@@ -1,4 +1,9 @@
+/*
+Builds the dialog box when adding or removing items.
+@author: Bryon
 
+
+*/
 package ToDo.GUI;
 
 import java.awt.FlowLayout;
