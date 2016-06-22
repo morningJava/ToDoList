@@ -1,7 +1,7 @@
 /**
  * ToDoList handles the Item list for the GUI.
  * 
- * @author m0r05
+ * @author Bryon
  * @version 0.1
  */
 
